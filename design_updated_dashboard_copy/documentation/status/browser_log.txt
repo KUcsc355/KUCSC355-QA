@@ -1,0 +1,55 @@
+﻿Windows 10; Screen Resolution 1920 x 1080
++----------------------------------------+
+
+Windows 10 IE:
+--------------
+Everything seems to be fine when displaying the user page.
+
+Responsive:
+Yes
+
+Windows 10 Firefox:
+-------------------
+Everything seems fine
+
+Responsive:
+Yes
+
+Windows 10 Chrome:
+------------------
+Footer when full screen:
+Displays
+
+Footer after shrink:
+
+
+Responsive to shrink:
+Yes
+
+Ubuntu 17.10; Screen Resolution 1366 x 768 (16:9)
++-----------------------------------------------+
+
+Ubuntu Chrome
+Version 62.0.3202.89 (Official Build) (64-bit) - taken from chrome://chrome
+---------------------------------------------------------------------------
+There seems to be a lot of issues with how the page is displayed. 
+
+First off, the screen is not proportioned correctly. The footer is hidden behind some of the texts boxes depending on the page. This could be because of how the footer was aligned to the right side of the screen. It is set to not automatically adjust to the page.
+
+However, the event page and mail page don't look as bad as the user page. Those pages display the footer, which scrolls with the screen (which it is supposed to do). However, the formatting is a little better.
+
+Responsive:
+Yes, footer seems to display better when browswer window is smaller.
+
+Ubuntu Firefox
+Version 56.0 (64 bit) - taken from about:preferences
+----------------------------------------------------
+Footer:
+Partially hidden on the user page.
+
+Footer after shrink:
+Not hidden; however, the right portion of the footer goes off the screen
+Footer always scrolls with the page, so when scrolling you can see the footer behind the text boxes, probably can be fixed by making the footer a fixed position.
+
+Responsive:
+Yes
