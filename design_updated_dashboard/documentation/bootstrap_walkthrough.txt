@@ -1,0 +1,28 @@
+This document will provide a walkthrough of how Bootstrap is used on a webpage.
+
+The dashboard was repurposed from a Bootstrap theme called Paper-Dashboard created by Creative Tim, who opened up their code under the MIT License.
+
+This theme is built on top of Bootstrap 3, containing two files, bootstrap.min.css and paper-dashboard.css. These two files are the core of this whole page (minus the js files). If any modifications are made to the CSS, they should be made to paper-dashboard.css NOT bootstrap.min.css
+
+For those of you who are unfamiliar with bootstrap, here is a quick overview.
+	
+	Usage:
+		If you want to use a Bootstrap file within your project, you simply supply either a CSS file or a CDN location.
+
+		Bootstrap CSS File:
+			An actual css file for bootstrap usually goes by the name bootstrap.min.css, etc. You add this file to your project directory and call it within your html <head> section in the following fashion:
+				<!-- Bootstrap core CSS     -->
+    			<link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    	Bootstrap CDN Repository:
+    		A CDN is basically a network storage that contains the css necessary for some bootstrap functions to work. For example, say you want a theme that was made with Bootstrap but the author doesn't release the CSS file, they instead host it on a CDN. Well, you would then pull that CDN into your HTML file as the following:
+    			<!-- Bootstrap Theme CDN -->
+    			<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+    		Note:
+    			This is only for your knowledge on Bootstrap, no CDN's were used for this project.
+
+    		Downfall of CDN:
+    			If a CDN is down, well, you're sight isn't going to work too well.
+
+And that's all there is to using Bootstrap

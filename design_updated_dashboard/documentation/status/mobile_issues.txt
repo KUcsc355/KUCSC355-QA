@@ -1,0 +1,10 @@
+iOS:
+	Safari:
+		Hamburger MIA
+			Partial: Hamburger now showing, not functioning
+
+	Chrome:
+		Hamburger MIA:
+			Partial: Hamburger now showing, not functioning
+
+		No footer. Hidden behind text boxes.
