@@ -1,0 +1,7 @@
+iOS:
+	Safari:
+		Hamburger MIA
+
+	Chrome:
+		Hamburger MIA
+		Footer not displayed. Placed behind text boxes.
